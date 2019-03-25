@@ -1,0 +1,40 @@
+html,
+body {
+  height:100%;
+  margin:0;
+}
+body {
+  background-color: rgb(46, 43, 61);
+  text-align: center;
+}
+
+#breakout-game {
+  display: inline-block;
+  position: relative;
+  width: 400px;
+  height: 600px;
+}
+.breakout-gui-layer {
+  position: absolute;
+  display: block;
+  font-size: 8px;
+  width: 100%;
+  height: 100%;
+}
+
+.breakout-status-bar {
+  position: absolute;
+  display: block;
+  color: #AAA;
+  /* background-color: blue; */
+  bottom: 0px;
+  opacity: 0.8;
+  width: 100%;
+  left: 0px;
+}
+
+.breakout-status-label {
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+}
